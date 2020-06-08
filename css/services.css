@@ -393,16 +393,14 @@ form {
     <--- -------------------------- -*/
 
     #hero {
-        height: 1100px;
+        height: 600px;
         background-attachment: fixed;
         position: relative;
     }
 
     #home-h {
-        -webkit-transform: translateY(-120px);
-            -ms-transform: translateY(-120px);
-                transform: translateY(-120px);
         font-size: 4.375em;
+        transform: translateY(40px);
     }
 
     #hero img {
@@ -418,7 +416,7 @@ form {
     <--- -------------------------- -*/
 
     #services {
-        padding-top: 0;
+        padding-top: 100px;
         position: relative;
         padding-bottom: 0;
     }

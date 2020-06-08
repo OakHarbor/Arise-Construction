@@ -360,16 +360,16 @@ form p{
     <--- -------------------------- -*/
 
     #hero {
-        height: 1100px;
+        height: 600px;
         background-attachment: fixed;
         position: relative;
     }
 
     #home-h {
         font-size: 4.375em;
-        -webkit-transform: translateY(-100px);
-            -ms-transform: translateY(-100px);
-                transform: translateY(-100px);
+        -webkit-transform: translateY(40px);
+            -ms-transform: translateY(40px);
+                transform: translateY(40px);
     }
 
     #hero img {
@@ -400,23 +400,19 @@ form p{
             -ms-flex-align: center;
                 align-items: center;
         padding-top: 80px;
-        padding-bottom: 80px;
+        padding-bottom: 120px;
         position: relative;
         z-index: 100;
+        margin-bottom: 60px;
     }
 
     #contact {
         max-width: 600px;
-        -webkit-transform: translateY(-150px);
-            -ms-transform: translateY(-150px);
-              transform: translateY(-150px);
     }
 
     .contact-right {
         width: 300px;
-        -webkit-transform: translateY(-100px);
-            -ms-transform: translateY(-100px);
-              transform: translateY(-100px);
+        transform: translateY(40px);
     }
 
 }
