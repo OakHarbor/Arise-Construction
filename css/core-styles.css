@@ -290,6 +290,8 @@ button:hover {
 /* Top Mobile Navigation */
 .mobile-wrapper {
     height: 90px;
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
     transition: .3s ease;
 }
 
@@ -457,7 +459,7 @@ button:hover {
 <--- -------------------------- -*/
 
 #contact-strip {
-    background:url("../images/people.jpg");
+    background:url("/images/image-11.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 36px;
@@ -494,17 +496,16 @@ button:hover {
 }
 
 .contact-group h2 {
-    color: #4c4c4c;
+    color: #000;
     font-size: 1.875em;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .top p {
-    color: #4c4c4c;
+    color: #000;
     text-align: center;
     margin-bottom: 10px;
-    font-weight: 900;
 }
 
 .contact-button {
@@ -580,6 +581,7 @@ button:hover {
     .contact-group h2 {
         margin: 0;
         text-align: left;
+        color: #000;
     }
 
     .top p {
@@ -1053,4 +1055,3 @@ footer a svg {
 		margin-top: 50px;
 	}
 }
-

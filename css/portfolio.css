@@ -17,8 +17,8 @@ html {
 }
 
 #hero {
-    min-height: 40px;
-    height: 450px;
+    min-height: 400px;
+    height: 400px;
     background: url("/images/image-12.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,6 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 60px !important;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -60,7 +59,7 @@ html {
     content: '';
     position: absolute;
     width: 180px;
-    height: 200px;
+    height: 150px;
     border: 10px solid rgba(255,186,25, .4);
     z-index: -1;
 }
@@ -219,7 +218,6 @@ html.clicked {
         text-align: center;
         font-size: 3.125em;
         width: 100%;
-        margin-bottom: 130px !important;
     }
 
     /*-- -------------------------- -->
@@ -252,7 +250,9 @@ html.clicked {
         top: 50%;
         left: 50%;
         margin-right: -50%;
-        transform: translate(-50%, -50%)
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%)
     }
 }
 

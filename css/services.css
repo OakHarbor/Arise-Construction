@@ -19,7 +19,9 @@ body.dark-mode {
     float: unset;
     top: 35px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 #hero {
@@ -133,15 +135,15 @@ body.dark-mode {
     width: 30px;
     margin-right: 15px;
     height: auto;
-    -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-            transform: rotate(90deg);
 }
 
 .right {
     height: 2px;
     width: 200px;
     background: #f9f9f9;
+    -webkit-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+            transform: translateY(10px);
 }
 
 .service-item {
@@ -266,12 +268,6 @@ form {
         height: 600px;
     }
 
-    #home-h {
-        -webkit-transform: translateY(-80px);
-            -ms-transform: translateY(-80px);
-                transform: translateY(-80px);
-    }
-
     #hero img {
         display: block;
         position: absolute;
@@ -285,7 +281,7 @@ form {
     <--- -------------------------- -*/
 
     #services {
-        padding-top: 0;
+        padding-top: 100px;
     }
 
     .bee-line {
@@ -307,11 +303,15 @@ form {
         height: 2px;
         width: 200px;
         background: #f9f9f9;
+        -webkit-transform: translateY(10px);
+            -ms-transform: translateY(10px);
+                transform: translateY(10px);
     }
 
 
     .topper h2 {
         text-align: center;
+        font-size: 2.8em;
     }
 
     .topper h2 span {
