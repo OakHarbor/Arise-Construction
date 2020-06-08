@@ -400,7 +400,9 @@ form {
 
     #home-h {
         font-size: 4.375em;
-        transform: translateY(40px);
+        -webkit-transform: translateY(40px);
+            -ms-transform: translateY(40px);
+                transform: translateY(40px);
     }
 
     #hero img {
