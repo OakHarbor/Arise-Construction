@@ -5,7 +5,7 @@
 #hero {
     height: 650px;
     width: 100%;
-    background:url("../images/yellow-house.jpg");
+    background: url("../images/yellow-house-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -298,7 +298,7 @@
 <--- -------------------------- -*/
 
 .content {
-    background:url("../images/house.jpg");
+    background: url("../images/house-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -434,19 +434,19 @@
 }
 
 .card:nth-child(1) {
-    background:url("../images/kitchen.jpg");
+    background: url("../images/kitchen-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card:nth-child(2) {
-    background:url("../images/image-23.jpg");
+    background: url("../images/stairs-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card:nth-child(3) {
-    background:url("../images/deck.jpg");
+    background: url("../images/deck-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -639,7 +639,7 @@
 <--- -------------------------- -*/
 
 #corinthians-passage {
-    background:url("/images/image-15.jpg");
+    background: url("/images/image-15-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -688,7 +688,7 @@
 <--- -------------------------- -*/
 
 #reviews {
-    background:url("/images/home2.jpg");
+    background: url("/images/home2-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -925,89 +925,6 @@
 }
 
 /*-- -------------------------- -->
-<---         OUR MISSION        -->
-<--- -------------------------- -*/
-
-#our-mission {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background: url("/images/mission-short-mobile.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-#our-mission:before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: #000;
-    opacity: .7;
-    top: 0;
-    left: 0;
-}
-
-.mission-container h2 {
-    font-size: 1.875em;
-    margin-bottom: 20px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
-}
-
-.mission-container h2 span {
-    display: block;
-    color: var(--primary);
-}
-
-.mission-container p {
-    margin-bottom: 50px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
-}  
-
-.mission-button {
-    display: block;
-    margin: auto;
-    margin-left: 0;
-    position: relative;
-    z-index: 10;
-    color: #000;
-}
-
-.join {
-    margin-bottom: 10px !important;
-}
-
-form {
-    position: relative;
-    z-index: 200;
-}
-
-#subscribe input[type="email"] {
-    position: relative;
-    z-index: 500;
-    height: 50px;
-    width: 100%;
-    padding-left: 15px;
-    border-radius: 5px;
-}
-
-#subscribe input:focus {
-    border: 2px solid var(--primary);
-}
-
-#subscribe button[type="submit"] {
-    width: 100%;
-}
-
-#subscribe button[type="submit"]:hover {
-    opacity: .7;
-}
-
-/*-- -------------------------- -->
 <---            TEAM            -->
 <--- -------------------------- -*/
 
@@ -1115,7 +1032,7 @@ form {
 <--- -------------------------- -*/
 
 #contact-strip {
-    background:url("../images/image-11.jpg");
+    background: url("../images/image-11.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 36px;
@@ -1635,7 +1552,7 @@ form {
     #hero {
         height: 800px;
         width: 100%;
-        background:url("../images/yellow-house.jpg");
+        background: url("../images/yellow-house.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -1906,7 +1823,7 @@ form {
     <--- -------------------------- -*/
 
     #trust-us {
-        background: url("/images/paintbrush.jpg");
+        background: url("/images/house.jpg");
     }
 
     .content {
@@ -2044,6 +1961,7 @@ form {
     #corinthians-passage {
         padding-top: 150px;
         padding-bottom: 150px;
+        background: url("/images/image-15.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
