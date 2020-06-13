@@ -18,7 +18,7 @@ body h3.dark-mode
 <--- -------------------------- -*/
 
 body.dark-mode {
-    background: var(--light);
+    background: var(--dark);
 }
 
 .navbar-menu.dark-mode {
@@ -235,8 +235,12 @@ a.active-menu.dark-mode {
 <---          TRUST US          -->
 <--- -------------------------- -*/
 
+#customer-service.dark-mode {
+    background: var(--dark) !important;
+}
+
 .estimate.dark-mode {
-    background: var(--medium);
+    background: var(--light);
 }
 
 .estimate h2.dark-mode {
