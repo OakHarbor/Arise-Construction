@@ -404,7 +404,7 @@ const disableDarkMode = () => {
   $hamburgerInner.removeClass("dark-mode");
   $mobileLogo.removeClass("dark-mode");
   $darkModeLogo.removeClass("dark-mode");
-  $sideNav.addClass("dark-mode");
+  $sideNav.removeClass("dark-mode");
 
   /* Body Styles */
   $bodyP.removeClass("dark-mode");
