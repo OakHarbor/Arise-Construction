@@ -396,4 +396,8 @@ footer.dark-mode {
         z-index: 5;
     }
 
+    .side-nav.dark-mode {
+        background: #000;
+    }
+
 }

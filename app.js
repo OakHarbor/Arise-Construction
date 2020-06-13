@@ -236,6 +236,7 @@ $homeIcon.on("click", function(e) {
 /* Navigation Bar and Body */
 var $darkToggle = $('.dark-toggle')
 var $navbarMenu = $(".navbar-menu");
+var $sideNav = $(".side-nav");
 var $sideNavA = $(".side-nav a");
 var $activeMenu = $(".active-menu");
 var $isActiveHamburger = $(".hamburger.is-active .hamburger-inner::after");
@@ -326,6 +327,8 @@ const enableDarkMode = () => {
   $hamburgerInner.addClass("dark-mode");
   $mobileLogo.addClass("dark-mode");
   $darkModeLogo.addClass("dark-mode");
+  $sideNav.addClass("dark-mode");
+
 
   /* Body Styles */
   $bodyP.addClass("dark-mode");
@@ -401,6 +404,7 @@ const disableDarkMode = () => {
   $hamburgerInner.removeClass("dark-mode");
   $mobileLogo.removeClass("dark-mode");
   $darkModeLogo.removeClass("dark-mode");
+  $sideNav.addClass("dark-mode");
 
   /* Body Styles */
   $bodyP.removeClass("dark-mode");
