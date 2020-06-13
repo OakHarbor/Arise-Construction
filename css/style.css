@@ -2067,88 +2067,14 @@
         background-repeat: no-repeat;
     }
 
+    .dark {
+        opacity: 1;
+    }
+
     .gallery-group img {
         width: 20%;
         margin: 0;
         padding: 0;
-    }
-
-    /*-- -------------------------- -->
-    <---          SPOTLIGHT         -->
-    <--- -------------------------- -*/
-
-    #spotlight {
-        padding-top: 100px;
-        padding-bottom: 100px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-    }
-
-    .spotlight {
-        width: 450px;
-        height: auto;
-    }
-
-    .spotlight-content {
-        width: 500px;
-        margin-left: 36px;
-    }
-
-    /*-- -------------------------- -->
-    <---         OUR MISSION        -->
-    <--- -------------------------- -*/
-
-    #our-mission {
-        background: url("/images/mission.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-
-    .mission-container h2 {
-        width: 500px;
-        font-size: 2.5em;
-    }
-
-    .mission-container p {
-        width: 500px;
-    }
-
-    #subscribe input[type="email"] {
-        width: 500px;
-    }
-
-    #subscribe button[type="submit"] {
-        width: 120px;
-        margin: 0 0 0 30px;
-    }
-
-    #subscribe {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -webkit-box-pack: start;
-            -ms-flex-pack: start;
-                justify-content: flex-start;
-        width: 570px;
-        margin: auto;
-        margin-left: 0;
-        margin-top: 20px;
     }
 
     /*-- -------------------------- -->
@@ -2157,7 +2083,7 @@
 
     #meet-the-team {
         padding-top: 100px;
-        padding-bottom: 230px;
+        padding-bottom: 100px;
     }
 
     .team-container {

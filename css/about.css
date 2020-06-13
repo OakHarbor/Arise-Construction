@@ -26,7 +26,7 @@ body.dark-mode {
 #hero {
     min-height: 400px;
     height: 400px;
-    background: url('/images/tools-compressor.jpg');
+    background: url('/images/tools.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
