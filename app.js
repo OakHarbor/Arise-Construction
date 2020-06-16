@@ -452,20 +452,20 @@ const disableDarkMode = () => {
   /* Footer */
   $footer.removeClass("dark-mode");
 
-// -------------------------------------------
-//             ABOUT PAGE
-//--------------------------------------------
+  // -------------------------------------------
+  //             ABOUT PAGE
+  //--------------------------------------------
 
-$numberItemH4.removeClass("dark-mode");
-$squareH2.removeClass("dark-mode");
+  $numberItemH4.removeClass("dark-mode");
+  $squareH2.removeClass("dark-mode");
 
-// -------------------------------------------
-//             CONTACT PAGE
-//--------------------------------------------
+  // -------------------------------------------
+  //             CONTACT PAGE
+  //--------------------------------------------
 
-$contactTopper.removeClass("dark-mode");
-$contactRightH4.removeClass("dark-mode");
-$contactRightA.removeClass("dark-mode");
+  $contactTopper.removeClass("dark-mode");
+  $contactRightH4.removeClass("dark-mode");
+  $contactRightA.removeClass("dark-mode");
 
   localStorage.setItem("darkMode", null)
 }
