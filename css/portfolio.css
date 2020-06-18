@@ -261,9 +261,12 @@ html.clicked {
 
     #hero {
         height: 600px;
+        background: url("/images/image-16.jpg");
         background-attachment: fixed;
         position: relative;
         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     #home-h {
