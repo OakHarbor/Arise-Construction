@@ -729,7 +729,7 @@ button:hover {
 
 	.side-nav ul li a:hover {
 		cursor: pointer;
-		color: #f5f5f5;
+		color: var(--primary);
 		opacity: .8;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
