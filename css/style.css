@@ -934,6 +934,14 @@
     padding-bottom: 100px;
 }
 
+.desktop-card {
+    display: none;
+}
+
+.mobile-card p {
+    margin-bottom: 0 !important;
+}
+
 #meet-the-team h2 {
     font-size: 2.5em;
     margin-bottom: 30px;
@@ -1445,6 +1453,10 @@
     #meet-the-team {
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+
+    .mobile-card {
+        display: none !important;
     }
 
     .team-group {
@@ -2073,7 +2085,7 @@
     .gallery-group img {
         width: 20%;
         height: auto;
-        max-height: 519px;
+        max-height: 550px;
         margin: 0;
         padding: 0;
     }
@@ -2085,6 +2097,10 @@
     #meet-the-team {
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+
+    .mobile-card {
+        display: none;
     }
 
     .team-container {
@@ -2112,8 +2128,6 @@
     #meet-the-team h2, #meet-the-team h3 {
         width: 500px;
     }
-
-
 
     .team-container {
         margin: 0;
