@@ -329,7 +329,6 @@ const enableDarkMode = () => {
   $darkModeLogo.addClass("dark-mode");
   $sideNav.addClass("dark-mode");
 
-
   /* Body Styles */
   $bodyP.addClass("dark-mode");
   $bodyH2.addClass("dark-mode");
