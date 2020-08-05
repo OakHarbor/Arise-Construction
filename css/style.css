@@ -171,6 +171,7 @@ body.clicked {
 .pop-up img {
     display: block;
     width: 80%;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -216,6 +217,12 @@ body.clicked {
         opacity: .87;
         visibility: visible;
     }
+}
+
+.close {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
 }
 
 /*-- -------------------------- -->
@@ -1260,6 +1267,12 @@ body.clicked {
         width: 90%;
         display: block;
         margin: auto;
+    }
+
+    .close {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
     }
 
     /*-- -------------------------- -->
