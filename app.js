@@ -44,6 +44,17 @@ let toggleNav = function () {
     }
 }
 
+const $popUp = $(".pop-up");
+const $dark2 = $(".dark2");
+const $close = $(".close");
+var $body = $("body");
+
+$close.on("click", function (e) {
+  $popUp.addClass("clicked");
+  $dark2.addClass("clicked");
+  $body.addClass("clicked");
+});
+
 /* Modals collected in variables */
 
 var $modalOne = $(".modal-one");
