@@ -168,10 +168,18 @@ body.clicked {
     margin-bottom: 20px;
 }
 
-.pop-up img {
+.pop-up-logo {
+    width: 60%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.images img {
     display: block;
     width: 80%;
-    max-width: 500px;
+    max-width: 400px;
     margin: auto;
 }
 
@@ -1263,7 +1271,7 @@ body.clicked {
         top: -40px;
     }
 
-    .pop-up img {
+    .images img {
         width: 90%;
         display: block;
         margin: auto;
@@ -1826,7 +1834,7 @@ body.clicked {
         top: 200px;
     }
 
-    .pop-up img {
+    .images img {
         display: inline-block;
         width: 500px;
     }
