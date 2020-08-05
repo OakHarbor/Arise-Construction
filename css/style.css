@@ -169,7 +169,9 @@ body.clicked {
 }
 
 .pop-up img {
-    width: 100%;
+    display: block;
+    width: 80%;
+    margin: auto;
 }
 
 .close {
