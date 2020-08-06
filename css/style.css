@@ -151,6 +151,7 @@ body.clicked {
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
+    z-index: -1;
 }
 
 .dark2.clicked {
@@ -159,6 +160,7 @@ body.clicked {
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
+    z-index: -1;
 }
 
 .pop-up h3 {
