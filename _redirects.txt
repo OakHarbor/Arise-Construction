@@ -1,4 +1,4 @@
-# Redirect default Netlify subdomain to primary domain
+
 https://ariseconstruction.netlify.app/ https://www.ariseconstructions.com/ 301!
 http://ariseconstruction.netlify.app/ https://www.ariseconstructions.com/ 301!
 https://www.ariseconstruction.netlify.app/ https://www.ariseconstructions.com/ 301!
