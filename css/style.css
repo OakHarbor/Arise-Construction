@@ -393,6 +393,10 @@
             transform: rotate(1deg);
 }
 
+.strong {
+    color: var(--primary);
+}
+
 /*-- -------------------------- -->
 <---           QUOTE            -->
 <--- -------------------------- -*/
@@ -484,6 +488,10 @@
     margin: 40px auto;
 }
 
+.why-item {
+    padding: 0 10px !important;
+}
+
 .why-item span {
     font-size: .4em;
     font-weight: normal;
@@ -572,19 +580,19 @@
 }
 
 .card:nth-child(1) {
-    background: url("../images/kitchen-mobile.jpg");
+    background: url("../images/callout1-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card:nth-child(2) {
-    background: url("../images/stairs-mobile.jpg");
+    background: url("../images/callout2-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card:nth-child(3) {
-    background: url("../images/deck-mobile.jpg");
+    background: url("../images/callout3-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -596,8 +604,21 @@
 .card h2 {
     margin: 15px auto;
     margin-left: 0;
-    font-size: 1.8125em;
+    font-size: 1.7125em;
     color: #fff;
+    height: 102px;
+}
+
+.card:nth-child(1) h2 {
+    width: 100%;
+}
+
+.card:nth-child(2) h2 {
+    width: 100%;
+}
+
+.card:nth-child(3) h2 {
+    width: 100%;
 }
 
 .card button {
@@ -2031,7 +2052,9 @@
     }
 
     .why-item-container {
-        width: 1100px;
+        padding: 0 10px;
+        width: 100%;
+        max-width: 1100px;
         margin: auto;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2042,7 +2065,7 @@
                 flex-direction: row;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
-                justify-content: space-between;
+                justify-content: space-evenly;
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
@@ -2053,7 +2076,12 @@
     }
 
     .why-item {
-        width: 350px;
+        width: 300px;
+        margin: 40px 0;
+    }
+
+    .why-item:nth-of-type(2) {
+        width: 270px;
     }
 
     .why-item p {
@@ -2082,6 +2110,24 @@
         margin-left: 0;
         margin-top: 0;
         width: 229px;
+    }
+
+    .card:nth-child(1) {
+    background: url("../images/callout1-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .card:nth-child(2) {
+        background: url("../images/callout2-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card:nth-child(3) {
+        background: url("../images/callout3-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     /*-- -------------------------- -->
