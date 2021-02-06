@@ -23,9 +23,10 @@ body.dark-mode {
 #hero {
     min-height: 400px;
     height: 400px;
-    background: url('/images/image-6.jpg');
+    background: url('/images/contact-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 
@@ -361,7 +362,11 @@ form p{
 
     #hero {
         height: 600px;
-        background-attachment: fixed;
+        background-attachment: fixed !important;
+        background: url('/images/contact-desktop.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         position: relative;
     }
 

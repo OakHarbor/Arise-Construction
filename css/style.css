@@ -46,7 +46,7 @@
 }
 
 .heroText h1 {
-	font-size: 2.2em;
+	font-size: 1.7em;
 	color: #fff;
 	text-align: left;
 	font-weight: bold;
@@ -75,6 +75,7 @@
 
 .about-button, .quote-button {
     width: 188px;
+
 }
 
 .white-comb {
@@ -602,7 +603,7 @@
 }
 
 .card h2 {
-    margin: 15px auto;
+    margin: 0px auto 15px;
     margin-left: 0;
     font-size: 1.7125em;
     color: #fff;
@@ -797,8 +798,8 @@
 <---         CORINTHIANS        -->
 <--- -------------------------- -*/
 
-#corinthians-passage {
-    background: url("/images/image-15-mobile.jpg");
+#message {
+    background: url("/images/image-24-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -806,7 +807,7 @@
     position: relative;
 }
 
-#corinthians-passage:before {
+#message:before {
     content: '';
     position: absolute;
     height: 100%;
@@ -817,7 +818,7 @@
     left: 0;
 }
 
-.corinthians {
+.message {
     font-size: 1.125em
 
     ;
@@ -827,13 +828,13 @@
     color: #fff;
 }
 
-.corinthians span {
+.message span {
     font-weight: bold;
     font-size: 2.1875em;
     color: var(--primary);
 }
 
-.corinthians span:nth-child(2) {
+.message span:nth-child(2) {
     font-size: 1.3125em;
 }
 
@@ -984,7 +985,7 @@
 }
 
 .gallery-topper {
-    background: url("/images/image-11.jpg");
+    background: url("/images/image-6-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px auto 0 auto;
@@ -1500,12 +1501,12 @@
     <---         CORINTHIANS        -->
     <--- -------------------------- -*/
 
-    #corinthians-passage {
+    #message {
         padding-top: 100px;
         padding-bottom: 100px;
     }
 
-    .corinthians {
+    .message {
         width: 360px;
         margin: auto;
     }
@@ -1744,7 +1745,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        background-position-y: top;
+        background-position: center;
         color: #fff;
         position: relative;
         display: -webkit-box;
@@ -2200,10 +2201,10 @@
     }
 
     /*-- -------------------------- -->
-    <---         CORINTHIANS        -->
+    <---         Message        -->
     <--- -------------------------- -*/
 
-    #corinthians-passage {
+    #message {
         padding-top: 150px;
         padding-bottom: 150px;
         background: url("/images/image-15.jpg");
@@ -2212,7 +2213,7 @@
         background-attachment: fixed;
     }
 
-    .corinthians {
+    .message {
         margin: auto;
         font-size: 1.5em;
     }
