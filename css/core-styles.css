@@ -318,8 +318,9 @@ button:hover {
 
 /* Navigation Links */
 
-.mobile-wrapper img {
-	height: 38px;
+.mobile-wrapper .home-link {
+    height: 38px;
+    display: block;
 }
 
 .navbar-menu {
@@ -612,13 +613,20 @@ button:hover {
 
 	.container {
 		max-width: 1100px;
-	}
+    }
+    
+    .navbar-menu .desktop-logo {
+        display: block;
+        width: 60px;
+    }
 
-	.navbar-menu img {
+    .navbar-menu img,
+    .navbar-menu .desktop-logo {
 		display: block;
 		margin: 0 !important;
 		position: absolute;
-		left: 2em;
+        left: 1em;
+        top: 10px;
         height: 60px;
         width: auto;
 	}

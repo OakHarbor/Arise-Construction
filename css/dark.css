@@ -46,7 +46,6 @@ a.active-menu.dark-mode {
 }
 
 #mobile-logo.dark-mode {
-    visibility: hidden;
     -webkit-transition: .3s ease;
     -o-transition: .3s ease;
     transition: .3s ease;
