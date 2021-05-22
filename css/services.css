@@ -105,10 +105,15 @@ body.dark-mode {
 
 .topper {
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .topper h2 {
     font-size: 1.875em;
+}
+
+.topper p {
+    margin-bottom: 25px;
 }
 
 .topper span {
@@ -322,6 +327,10 @@ form {
         text-align: center;
     }
 
+    .topper button {
+        margin: 0 10px;
+    }
+
     .services-container {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -457,6 +466,11 @@ form {
         text-align: center;
         width: 670px;
         margin: auto;
+        margin-bottom: 40px;
+    }
+    
+    .topper button {
+        margin: 0 10px;
     }
 
     .services-container {

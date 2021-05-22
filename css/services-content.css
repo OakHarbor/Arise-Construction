@@ -9,6 +9,13 @@
     background-position: center;
 }
 
+#hero.structural {
+    background: url("/images/image-6-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .heroText {
 	padding-top: 0;
     position: relative;
@@ -149,6 +156,13 @@ li {counter-increment: li}
         background-position: center;
     }
 
+    #hero.structural {
+        background: url("/images/image-6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
     .about-box {
         width: 600px;
         height: 150px;
@@ -216,6 +230,13 @@ li {counter-increment: li}
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
+    }
+
+    #hero.structural {
+        background: url("/images/image-6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 70%;
     }
 
     .multi-family {
